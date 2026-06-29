@@ -23,6 +23,12 @@ npx skills add vltansky/foundry-skills/skills/ux-reviewer -g -y
 | [ux-reviewer](skills/ux-reviewer) | Sharp, evidence-backed UX review of an existing flow, screen, prototype, screenshot, or live product |
 | [prod-reviewer](skills/prod-reviewer) | _Placeholder — scope TBD_ |
 
+### Product
+
+| Skill | Description |
+|-------|-------------|
+| [grill-product](skills/grill-product) | Analyze an existing product then grill, challenge, and push back to improve it (also shapes new ideas). Lenses: signals, framing, tradeoffs, GTM, first experience |
+
 ## License
 
 MIT
