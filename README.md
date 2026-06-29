@@ -21,7 +21,6 @@ npx skills add vltansky/foundry-skills/skills/ux-reviewer -g -y
 | Skill | Description |
 |-------|-------------|
 | [ux-reviewer](skills/ux-reviewer) | Sharp, evidence-backed UX review of an existing flow, screen, prototype, screenshot, or live product |
-| [prod-reviewer](skills/prod-reviewer) | _Placeholder — scope TBD_ |
 
 ### Product
 
