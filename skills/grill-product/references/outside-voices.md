@@ -14,8 +14,10 @@ Gather them with tools, and fan the work out to subagents so the main thread sta
 
 Pick the channels that fit the product. Use whatever is available; degrade gracefully when a tool is missing.
 
-- **User sentiment** — web search for reviews and discussion: review sites (G2, Capterra, Trustpilot, app stores), Reddit, Hacker News, YouTube, niche forums. A social/X MCP if connected, for live sentiment and complaints.
-- **Requests and bugs** — `gh` CLI on the product's own repo and on competitors' open-source repos: `gh issue list`, `gh search issues`, discussions, and PRs labeled feature-request / bug. Real issues are strong, behavior-backed signals.
+- **User sentiment** — web search for reviews and discussion: review sites (G2, Capterra, Trustpilot, app stores), Reddit, Hacker News, YouTube, niche forums. A social/X MCP if connected, for live sentiment. Use **site-scoped queries** to reach primary threads, not aggregators — e.g. `site:news.ycombinator.com <product>`, `site:reddit.com <product> pricing`. A bounded generic search lands on second-hand summaries; tag those `provided`, not `verified`.
+- **Requests and bugs** — `gh` on the product's own repo and competitors' open-source repos. To rank by community demand you need reaction counts, which `gh issue list` does not expose; use the search API and sort by reactions:
+  - `gh api -X GET search/issues -f q='repo:OWNER/REPO is:issue is:open' -f sort=reactions -f order=desc --jq '.items[] | {reactions: .reactions.total_count, title, url}'`
+  - also `gh search issues`, discussions, and PRs labeled feature-request / bug. Real issues are strong, behavior-backed signals.
 - **Competitor moves** — web search for changelogs, pricing pages, launch/announcement posts, docs. `context7` MCP for library/API/SDK docs when the product is developer-facing.
 - **Market and expert view** — analyst notes, expert essays, published frameworks; recent (prefer last 1–2 years), exact quotes over paraphrase.
 
