@@ -33,7 +33,13 @@ Dispatch one subagent per channel, in parallel, in a single message. This keeps 
     **Source:** <url or `gh` ref> | **Quote:** "<short verbatim>" | **Confidence:** verified | provided
   ```
 
-- The main thread then **dedups across channels, weights by strength and recency, and separates observed quotes from your interpretation.** Tag everything carried into the brief as `verified` (real source) per the evidence levels.
+- The main thread then **dedups across channels, weights by strength and recency, and separates observed quotes from your interpretation.** Tag everything carried into the brief per the evidence levels.
+
+## Vet before you grill
+
+Subagents over-report. Before a finding earns a place in the grill or brief, verify it yourself: open the cited URL or `gh` ref and confirm the quote is real, current, and says what the digest claims. Expect three failure classes — **fabricated** quotes, **outdated** information, and **misattributed** sentiment. A finding you could not re-confirm drops to `provided`, not `verified`.
+
+When channels **contradict** (users praise a feature on one channel, issues show it broken on another), do not silently pick a side — surface the contradiction in the brief. It usually means two segments living different realities, which feeds straight into Name The Segment.
 
 ## Use the results
 

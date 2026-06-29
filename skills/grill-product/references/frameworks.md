@@ -103,7 +103,9 @@ Map across four types, not just direct rivals, before judging whether a tradeoff
 - **Alternatives / substitutes** — manual workflows, agencies, spreadsheets, "do nothing."
 - **Adjacent** — integrations or platforms that could absorb the job.
 
-Use it to separate **table stakes** (everyone has it — gating or skipping it is a liability) from **differentiator** (where your defended tradeoff actually wins).
+"We have no competition" is always wrong — the **status quo** (spreadsheets, email, an agency, doing nothing) is the default competitor, and usually the real one. Map it first.
+
+Use it to separate **table stakes** (everyone has it — gating or skipping it is a liability) from **differentiator** (where your defended tradeoff actually wins). For the differentiator, name the **moat type** that defends it: network effects, switching costs, scale economics, brand, regulatory/IP, distribution, or data advantage. A differentiator with no moat type is a feature competitors copy next quarter.
 
 ## Value-Metric Pricing
 

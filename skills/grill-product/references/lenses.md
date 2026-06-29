@@ -15,7 +15,8 @@ Users give signals, not answers. We are not our users — many product mistakes 
 - What type of signal is this, and how strong? Classify it before acting (see frameworks.md, Signal Taxonomy). What is the underlying need behind it?
 - Is this the real problem, or a symptom in the user's own language? Are you about to build a "faster horse" — the solution they could name rather than the one they need?
 - Did the user describe a symptom, ask for a familiar solution, or reveal a workaround? What does each actually point to?
-- Whose reality is this built from — ours or theirs? Which of our assumptions is doing the heavy lifting?
+- Whose reality is this built from — ours or theirs? Which of our assumptions is doing the heavy lifting? Which bias is at work — confirmation, survivorship, internal, premature convergence?
+- Who benefits when this problem keeps existing? (Surfaces resistance and status-quo gravity.)
 - What behavior (not stated opinion) supports this read? What evidence would change it?
 
 Output: the interpreted problem, separated from what was literally said.
@@ -27,6 +28,7 @@ Output: the interpreted problem, separated from what was literally said.
 Great products make users more capable: they solve a real problem, reduce friction, make the next step clearer, and work reliably enough to be trusted. A product is not great because it is clever.
 
 - **Why** does this deserve to exist? What real problem does it solve, and for whom?
+- Vitamin or painkiller? If a vitamin, what would have to change to make it a painkiller — and is that worth doing?
 - **What** exactly are we building to solve it? What capability does the user gain?
 - **How** should users experience it? What does "reliable enough to be trusted" mean here?
 - **When** is the right moment to build, launch, price, or scale?

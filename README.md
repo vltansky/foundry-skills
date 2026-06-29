@@ -2,6 +2,11 @@
 
 A collection of [Agent Skills](https://agentskills.io) for Claude Code, Cursor, Codex, and other coding agents.
 
+## Skills
+
+- **[grill-product](skills/grill-product)** — Pressure-tests a product, feature, or spec so you build the right thing.
+- **[ux-reviewer](skills/ux-reviewer)** — Audits an existing UX flow or screen and tells you what to fix first.
+
 ## Install
 
 The default and recommended way is the [`skills`](https://github.com/vercel-labs/skills) CLI, which detects your installed agents and symlinks the skills into each one.

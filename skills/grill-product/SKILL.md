@@ -31,6 +31,26 @@ Core rules:
 - Treat what users and stakeholders say as a signal to interpret, not an answer to accept.
 - In a single non-interactive turn, lead with the analysis, the brief-so-far, and the top unresolved question — do not fake closure (see steps.md rhythm).
 
+## Effort Levels
+
+Scale the grill to the ask. Default to `standard`.
+
+| Level | Lenses | Outside voices | Depth | Output |
+|-------|--------|----------------|-------|--------|
+| `quick` | 1–2 highest-risk | skip | a few questions | findings inline, no brief |
+| `standard` | 2–3 by weakness | one sweep | full grill | Sharpened Brief |
+| `deep` | all relevant | full fan-out + vet | exhaustive, iterate | Sharpened Brief + evidence |
+
+## Common Mistakes
+
+- Grilling before understanding the product (skip analysis in Track A).
+- Accepting the user's framing instead of interpreting the signal behind it.
+- Running all five lenses by default instead of the ones that fit.
+- Producing a long report instead of one-question-at-a-time pressure.
+- Spreading pressure evenly instead of hitting the weakest part.
+- Going through the motions — ending with "looks good" and no committed action.
+- Faking closure instead of naming open risks and a verdict.
+
 ## Scope Boundaries
 
 Use this to analyze and improve a product decision, or to shape a new one. Route elsewhere when the request is different:
