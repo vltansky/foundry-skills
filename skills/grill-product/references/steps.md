@@ -8,7 +8,7 @@ Escape hatch: if the user pushes back on the one-at-a-time style or says "just g
 
 Evidence levels: tag every finding and analysis claim as one of:
 
-- **verified** — read directly from source (code, the live product, real data the user pointed to).
+- **verified** — read directly from a primary source: code, the live product, real data the user pointed to, or a subagent that opened the source and returned a verbatim quote with its URL. Source-backed, not memory.
 - **provided** — stated by the user or a document, not independently confirmed.
 - **assumed** — inferred. Flag it, and don't present it as fact; if an assumption would change the decision, ask.
 

@@ -23,7 +23,7 @@ Pick the channels that fit the product. Use whatever is available; degrade grace
 
 ## Fan out with subagents
 
-Dispatch one subagent per channel, in parallel, in a single message. This keeps tool output and large dumps out of the main context.
+Pick the 2–3 channels most likely to hold signal for this product, and dispatch one subagent per chosen channel, in parallel, in a single message — that is the `standard` "one sweep." Go wider only at `deep` effort. This keeps tool output and large dumps out of the main context, and leaves budget for spot-checking.
 
 - Give each subagent a tight brief: the product, the question, the channel, and the return shape below. Do **not** tell it the conclusion you expect — let the evidence land.
 - Each subagent returns a compact digest, not raw pages:
@@ -37,7 +37,9 @@ Dispatch one subagent per channel, in parallel, in a single message. This keeps 
 
 ## Vet before you grill
 
-Subagents over-report. Before a finding earns a place in the grill or brief, verify it yourself: open the cited URL or `gh` ref and confirm the quote is real, current, and says what the digest claims. Expect three failure classes — **fabricated** quotes, **outdated** information, and **misattributed** sentiment. A finding you could not re-confirm drops to `provided`, not `verified`.
+Subagents over-report, so a finding is only `verified` when it carries a **primary source plus a verbatim quote** (a subagent that opened the page and quoted it qualifies — see Evidence levels). A digest with no source or only a paraphrase is `provided`, not `verified`.
+
+Don't try to re-open every URL — that burns the budget the fan-out already spent. Instead, **spot-check the load-bearing findings** (the few the decision actually hinges on): re-open those yourself and confirm the quote is real, current, and says what the digest claims. Expect three failure classes — **fabricated** quotes, **outdated** information, **misattributed** sentiment. A load-bearing finding you cannot confirm drops to `provided` and becomes an open risk.
 
 When channels **contradict** (users praise a feature on one channel, issues show it broken on another), do not silently pick a side — surface the contradiction in the brief. It usually means two segments living different realities, which feeds straight into Name The Segment.
 
