@@ -1,0 +1,7 @@
+{
+  "name": "foundry-skills",
+  "private": true,
+  "scripts": {
+    "install:global": "npx -y skills add ./skills --all -g"
+  }
+}
